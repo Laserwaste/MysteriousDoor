@@ -5,7 +5,14 @@
 String SecretCode = "1992";
 string attempt = "";
 
-while(attempt != SecretCode)
+while (attempt != SecretCode)
 {
-    
+    Console.WriteLine("Enter the secret door its only four number!");
+    attempt = Console.ReadLine();
+    if (attempt != SecretCode)
+    {
+        Console.WriteLine("Sorry the door still locked");
+    }
 }
+Console.WriteLine("The door is unlocked");
+
