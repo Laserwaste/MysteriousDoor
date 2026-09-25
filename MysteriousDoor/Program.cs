@@ -11,8 +11,8 @@ while (attempt != SecretCode)
     attempt = Console.ReadLine();
     if (attempt != SecretCode)
     {
-        Console.WriteLine("Congrats the door still locked!");
+        Console.WriteLine("Congrats the door literally still locked!");
     }
 }
-Console.WriteLine("Congrats The door is unlocked!");
+Console.WriteLine("Congrats the door is unlocked!");
 
